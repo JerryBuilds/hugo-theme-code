@@ -57,9 +57,6 @@
 {{- partial "_script/repository.html" . }}
 {{- end}}
 <!-- TODO books -->
-{{- if .IsPage }}
-{{- partial "_script/pv.html" . }}
-{{- end }}
 {{- if in $.Site.Params.mainSections .Type }}
 {{- partial "_script/comment.html" . }}
 {{- end }}
