@@ -6075,6 +6075,7 @@ body.no-sidebar .sidebar {
   transition: 0.2s ease;
 }
 
+.category-list-item,
 .tag-list-link {
   padding: .4em .5em;
   margin: 2px 2px 2px 0;
