@@ -9433,3 +9433,28 @@ body.okayNav-loaded {
   border-left: 3px solid #ffcc00;
   background-color: #fffae6;
 }
+
+/* code-copy button */
+
+pre {
+  position: relative;
+}
+
+pre .code-copy-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  border-radius: 0 2px;
+  padding: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 800;
+  font-size: 0.9em;
+  line-height: 1.7;
+  color: #fff;
+  background-color: #8c8c8c;
+  min-width: 60px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0em;
+}
