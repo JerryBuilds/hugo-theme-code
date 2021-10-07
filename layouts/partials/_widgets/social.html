@@ -1,0 +1,12 @@
+<div class="widget">
+  <h3 class="widget-title"> {{ T "widget_social" }}</h3>
+  {{- $social := .Site.Params.profile.social }}
+  {{- with $social }}
+  <ul class="social-links">
+      {{- range $name,$url := $social.links }}
+      <li><a href="{{- $url | absURL }}" target="_blank" title="{{- $name }}" data-toggle=tooltip data-placement=top >
+              <i class="icon icon-{{$name}}"></i></a></li>
+      {{- end }}
+  </ul>
+  {{- end }}
+</div>

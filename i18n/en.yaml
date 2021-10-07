@@ -43,6 +43,8 @@ widget_archive:
   other: Archive
 widget_tags:
   other: Tags
+widget_social:
+  other: Social
 widget_categories:
   other: Categories
 widget_tagcloud:
