@@ -6786,14 +6786,6 @@ body.okayNav-loaded {
   margin-left: 0;
 }
 
-.header .social-links {
-  padding: 10px 20px;
-}
-
-.footer .social-links {
-  margin-bottom: 5px;
-}
-
 @font-face {
   font-family: "socialshare";
   src: url("../fonts/iconfont.eot");
@@ -7944,11 +7936,13 @@ body.okayNav-loaded {
     left: 0;
     z-index: 1000;
     display: block;
-    padding: 0;
+    padding: 10px;
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
     border-right: 1px solid #f6f6f6;
-    width: 4.16667%;
+    /* width: 4.16667%; */
+    width: 100%;
+    height: 70px;
   }
 
   .sidebar {
@@ -7963,10 +7957,11 @@ body.okayNav-loaded {
     /* Scrollable contents if viewport is shorter than content. */
     border-right: 1px solid #f6f6f6;
     width: 33.33333%;
+    margin-top: 80px;
   }
 
   .main {
-    width: 62.5%;
+    width: 66.66667%;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -7981,7 +7976,7 @@ body.okayNav-loaded {
   }
 
   body.main-center .main {
-    margin-left: 4.16667%;
+    margin-top: 80px;
   }
 
   body.main-left .sidebar {
@@ -8019,10 +8014,6 @@ body.okayNav-loaded {
     width: -webkit-calc(100% + 40px);
     width: calc(100% + 40px);
     left: -20px;
-  }
-
-  .header .social-links {
-    display: none;
   }
 }
 
@@ -8254,10 +8245,6 @@ body.okayNav-loaded {
     width: 900px;
   }
 
-  .header {
-    width: 16.66667%;
-  }
-
   .sidebar {
     width: 25%;
   }
@@ -8268,17 +8255,13 @@ body.okayNav-loaded {
   }
 
   .main {
-    width: 58.33333%;
+    width: 75%;
     padding-right: 25px;
     padding-left: 25px;
   }
 
   .footer {
     width: 16.66667%;
-  }
-
-  body.main-center .main {
-    margin-left: 16.66667%;
   }
 
   body.main-left .sidebar {
@@ -8603,10 +8586,6 @@ body.okayNav-loaded {
     display: none !important;
   }
 
-  .header {
-    width: 16.66667%;
-  }
-
   .sidebar {
     width: 23%;
   }
@@ -8617,17 +8596,13 @@ body.okayNav-loaded {
   }
 
   .main {
-    width: 60.33333%;
+    width: 77%;
     padding-right: 30px;
     padding-left: 30px;
   }
 
   .footer {
     width: 16.66667%;
-  }
-
-  body.main-center .main {
-    margin-left: 16.66667%;
   }
 
   body.main-left .sidebar {
@@ -8665,24 +8640,16 @@ body.okayNav-loaded {
 }
 
 @media (min-width: 1440px) {
-  .header {
-    width: 16.66667%;
-  }
-
   .sidebar {
     width: 21%;
   }
 
   .main {
-    width: 62.33333%;
+    width: 79%;
   }
 
   .footer {
     width: 16.66667%;
-  }
-
-  body.main-center .main {
-    margin-left: 16.66667%;
   }
 
   body.main-left .sidebar {
