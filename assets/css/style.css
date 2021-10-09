@@ -9189,13 +9189,6 @@ body.okayNav-loaded {
     padding-right: 0;
   }
 
-  .social-links {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0;
-  }
-
   .social-links:before,
   .social-links:after {
     content: " ";
@@ -9204,12 +9197,6 @@ body.okayNav-loaded {
 
   .social-links:after {
     clear: both;
-  }
-
-  .social-links li {
-    display: block;
-    margin-left: 0;
-    margin-top: 10px;
   }
 
   .social-links li:before,
