@@ -1,0 +1,13 @@
+<div class="widget widget-newsletter">
+  {{ $newsletter := .Site.Params.newsletter }}
+  {{ with $newsletter }}
+  <h3 class="widget-title">{{ $newsletter.title }}</h3>
+  <p>{{ $newsletter.blurb }}</p>
+  {{ with $newsletter.revue }}
+  <form action="https://{{ $newsletter.revue }}/add_subscriber" method="post">
+    <input class="newsletter-input" type="email" name="member[email]" placeholder="Your email address">
+    <button class="newsletter-button" type="submit" value="Subscribe" name="member[subscribe]">Subscribe</button>
+  </form>
+  {{ end }}
+  {{ end }}
+</div>
