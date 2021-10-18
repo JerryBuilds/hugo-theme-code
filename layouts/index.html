@@ -16,15 +16,6 @@
         {{ partial "post/title.html" . -}}
         {{- .Scratch.Delete "class_name"}}
       </div>
-      {{- if .Description }}
-      <div class="article-entry text-muted" itemprop="description">
-        {{- .Description -}}
-      </div>
-      {{ else if .Summary }}
-      <div class="article-entry text-muted" itemprop="description">
-        {{ .Summary }}
-      </div>
-      {{- end }}
       <p class="article-meta">
         {{- partial "post/date.html" . }}
         {{- partial "post/category.html" . }}
