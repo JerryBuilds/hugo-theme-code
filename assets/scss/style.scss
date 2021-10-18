@@ -5657,7 +5657,7 @@ pre code.lang:after {
 
 .header {
   background-color: #ffffff;
-  box-shadow: 0 4px 12px rgb(0 0 0 / 4%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
 .sidebar {
@@ -6045,8 +6045,8 @@ body.no-sidebar .sidebar {
 .tag-list-link {
   padding: .4em .5em;
   margin: 2px 2px 2px 0;
-  color: hsl(205deg 47% 42%);
-  background-color: hsl(205deg 46% 92%);
+  color: hsl(205deg, 47%, 42%);
+  background-color: hsl(205deg, 46%, 92%);
   font-size: 12px;
   line-height: 1;
   border-width: 1px;
